@@ -1,0 +1,27 @@
+{
+  "name": "hmp-demo",
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "bin": {
+    "hmp-demo": "index.js"
+  },
+  "files": [
+    "index.js",
+    "CHANGELOG.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "release-it": {
+    "$schema": "https://unpkg.com/release-it/schema/release-it.json"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^10.0.1",
+    "release-it": "^19.0.1"
+  }
+}
