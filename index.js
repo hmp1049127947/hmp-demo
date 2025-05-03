@@ -1,4 +1,4 @@
 
 export const demo = ()=>{
-    console.log("hello")
+    console.log("你好啊")
 }
